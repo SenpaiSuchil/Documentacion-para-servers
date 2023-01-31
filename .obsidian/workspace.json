@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "923af89e90ac4a97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Guia para instalar Portainer.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Guia para instalar Portainer.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Guia para instalar Portainer.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,6 +159,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "82a40fd1e3f9b47b",
-  "lastOpenFiles": []
+  "active": "923af89e90ac4a97",
+  "lastOpenFiles": [
+    "Guia para instalar Portainer.md",
+    "README.md"
+  ]
 }
