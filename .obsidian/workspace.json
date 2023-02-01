@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 233.5
+    "width": 200
   },
   "right": {
     "id": "64042ea5e290caa9",
@@ -162,8 +162,8 @@
   "active": "5c1d3aa349fbbdc2",
   "lastOpenFiles": [
     "Guia para instalar Portainer.md",
-    "Pasted image 20230201121321.png",
     "Guia para instalar debian.md",
+    "Pasted image 20230201121321.png",
     "README.md"
   ]
 }
