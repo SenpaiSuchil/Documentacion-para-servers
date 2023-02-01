@@ -163,6 +163,65 @@ siguiente de eso se nos presentara un resumen de como quedarian nuestras partici
 
 ### Instalar el sistema base
 
-este es otro paso de tramite solo presione enter y espere a que se instale todo el sistema
+este es otro paso de tramite solo presione enter y espere a que se instale todo el sistema hasta que aparezca una ventana que nos preguntará por que nucleo instalar, seleccione el que no tenga numeros, ya que eso abre la posibilidad a actualizaciones de kernel, la otra opcion sujeta su sistema operativo a esa version de kernel.
 
-###
+![kernel](images/kernel.png)
+
+Aparecerá otra ventana donde nos pedira especificar que drivers queremos instalar, seleccionaremos la opcion que dice "dirigido".
+
+espere a que termine de instalar el sistema base.
+
+### Configurar el gestor de paquetes
+
+este paso es importante para poder tener la herramienta apt/apt-get para instalar servicios en nuestro servidor.
+
+aparecerá una ventana que menciona si queremos leer otro medio para complementar el gestor de paquetes en la cual seleccionaremos "no"
+
+seguido de esto nos dice que si queremos enriquecer nuestro sistema base con una replica en red, a lo cual tambien diremos que no
+
+aparecerá una ventana donde necesitamos especificar de que repositorio apt va a consultar y conseguir paquetes.
+
+![apt](images/apt.png)
+
+
+lo dejaremos como está y con tabulador nos dirigiremos a "continuar"
+
+
+### Instalando el cargador de arranque GRUB
+
+aparecerá una ventana que nos pregunta si queremos que el GRUB esté en la unidad principal, a lo cual diremos que si.
+
+nos aparecerá una ventana donde tendremos que seleccionar en que parte deseamos instalarlo, seleccione la que dice "/dev/sda"
+
+![grub](images/grub.png)
+
+
+aparecerá una ventana donde se nos pregunta si queremos instalar GRUB en la ruta de medios removibles EFI, nosotros tenemos una maquina virtual asi que realmente no importa si pones si o no, para esta instalación seleccionaremos si.
+
+![efi](images/efi.png)
+
+
+
+### terminar la instalación
+
+Nos aparecerá una pregunta sobre si el reloj está en hora utc, a lo que seleccionaremos que si.
+
+por ultimo nos aparecerá un mensaje donde dice que la instalación se ha completado, solo presione _Enter_ y se reiniciará la computadora y lo mandará al GRUB, solo espere a que salga la siguiente pantalla:
+
+![login](images/login.png)
+
+ingrese los datos:
+- root
+- la contraseña que escribió en la instalación para root
+una vez adentro deberia de aparecer esta pantalla:
+
+![final](images/final.png)
+
+_con el tiempo apreciara la belleza de una terminal jaja_
+
+Felicidades, tiene una instalación de debian modo servidor (basica)
+consulte los siguientes documentos para saber que sigue:
+- comandos basicos de linux
+- configuración del server post instalación
+- instalar ssh
+:)
