@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "82a40fd1e3f9b47b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Guia para instalar Portainer.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "923af89e90ac4a97",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "README.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5c1d3aa349fbbdc2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Guia para instalar debian.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 233.5
   },
   "right": {
     "id": "64042ea5e290caa9",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Guia para instalar debian.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Guia para instalar debian.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Guia para instalar debian.md"
               }
             }
           }
@@ -159,9 +159,9 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "923af89e90ac4a97",
+  "active": "5c1d3aa349fbbdc2",
   "lastOpenFiles": [
-    "Guia para instalar Portainer.md",
-    "README.md"
+    "README.md",
+    "Guia para instalar Portainer.md"
   ]
 }
