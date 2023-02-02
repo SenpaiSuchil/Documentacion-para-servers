@@ -11,7 +11,8 @@ _(en el instalador nos tendremos que mover con el teclado las flechas para mover
 1.- Una vez booteamos nuestra imagen de debian nos deberia de salir un menú donde se nos muestran diferentes opciones, como por ejemplo:
 - Graphical install
 - install
-- advanced options
+- advanced options.
+
 entre otras pero la que nos interesa es exactamente esa ultima: Advanced options.
 Le damos _Enter_ y nos llevará a la siguiente pantalla donde se nos mostraran mas opciones de como poder instalar debian, la que nos interesa es la que dice _Expert install_, no confundir con la _Graphical expert install_.
 _(quiero hacer un parentesís para aclarar que lo hacemos desde el "modo feo" ya que es mas flexible con las opciones y nos deja ver con mas transparencia que ocurre tambien por el hecho de que el modo experto grafico puede que instale programas no deseados, nosotros buscamos una instalacion limpia de debian, sin entorno grafico para el ahorro de recursos ni  software adicional que no nos sirva para administrar nuestro server: la instalación modo experto nos permite saltarnos pasos que es muy importante, ademas de que si te ves bien experto instalandolo desde la interfaz de consola claro que si)_.
@@ -132,7 +133,7 @@ Seleccionaremos la opcion gpt:
 
 
 nos aparecerá una ventana con nuestro disco y una parte que dice "espacio libre"
-seleccione la que dice "espacio disco" debajo de su disco y presione _Enter_
+seleccione la que dice "espacio libre" debajo de su disco y presione _Enter_
 
 ![particion1](images/particion1.png)
 
@@ -224,4 +225,5 @@ consulte los siguientes documentos para saber que sigue:
 - comandos basicos de linux
 - configuración del server post instalación
 - instalar ssh
+
 :)
