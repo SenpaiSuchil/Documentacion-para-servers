@@ -1,5 +1,7 @@
 # Instalacion de debian con configuracion de servidores
 
+_una guia por Miguel Alejandro Ramirez Plascencia y Brandon Hernandez Ledezma_
+
 ### Antes de iniciar
 ----
 Hay que recalcar que esta instalación se llevará acabo desde consola en modo experto, tiene una especie de interfaz grafica en consola que nos ayudará.
